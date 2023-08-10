@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class AppFonts {
-  static const String kFontFamily = 'Montserrat';
-}
+
 
 abstract class AppFontWeight {
   static const FontWeight kLight = FontWeight.w300;
