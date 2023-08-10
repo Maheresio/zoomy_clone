@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:zoomy_clone/core/utils/app_assets.dart';
 import 'package:zoomy_clone/core/utils/app_colors.dart';
+import 'package:zoomy_clone/core/utils/app_strings.dart';
 
 class OnBoardingViewBody extends StatelessWidget {
   const OnBoardingViewBody({super.key});
@@ -13,7 +14,7 @@ class OnBoardingViewBody extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          'Start or join a meeting',
+          AppStrings.kStartOrJoinMeeting,
           style: Theme.of(context).textTheme.titleLarge,
           textAlign: TextAlign.center,
         ),
@@ -45,7 +46,7 @@ class OnBoardingViewBody extends StatelessWidget {
               ),
             ),
             child: Text(
-              'Google Sign In',
+              AppStrings.kGoogleSignIn,
               style: Theme.of(context).textTheme.bodyMedium,
             ),
           ),
