@@ -3,19 +3,18 @@ import 'package:flutter/material.dart';
 import 'app_font.dart';
 
 abstract class AppStyles {
-  TextStyle _getTextStyle({
+  static TextStyle _getTextStyle({
     required Color color,
     required double fontSize,
     required FontWeight fontWeight,
   }) =>
       TextStyle(
         color: color,
-        fontFamily: AppFonts.kFontFamily,
         fontSize: fontSize,
         fontWeight: fontWeight,
       );
 
-  TextStyle getLightStyle({
+  static TextStyle getLightStyle({
     required Color color,
     double fontSize = AppFontSize.s12,
   }) =>
@@ -25,7 +24,7 @@ abstract class AppStyles {
         fontWeight: AppFontWeight.kLight,
       );
 
-  TextStyle getRegularStyle({
+  static TextStyle getRegularStyle({
     required Color color,
     double fontSize = AppFontSize.s12,
   }) =>
@@ -35,7 +34,7 @@ abstract class AppStyles {
         fontWeight: AppFontWeight.kRegular,
       );
 
-  TextStyle getMediumStyle({
+  static TextStyle getMediumStyle({
     required Color color,
     double fontSize = AppFontSize.s12,
   }) =>
@@ -45,7 +44,7 @@ abstract class AppStyles {
         fontWeight: AppFontWeight.kMedium,
       );
 
-  TextStyle getSemiBoldStyle({
+  static TextStyle getSemiBoldStyle({
     required Color color,
     double fontSize = AppFontSize.s12,
   }) =>
@@ -55,7 +54,7 @@ abstract class AppStyles {
         fontWeight: AppFontWeight.kSemiBold,
       );
 
-  TextStyle getBoldStyle({
+  static TextStyle getBoldStyle({
     required Color color,
     double fontSize = AppFontSize.s12,
   }) =>
