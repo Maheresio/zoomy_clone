@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
+import 'package:zoomy_clone/features/splash/view/splash_view.dart';
 
 
 import '../helpers/custom_transition_page.dart';
@@ -15,7 +16,7 @@ abstract class AppRouter {
       GoRoute(
         path: '/',
         builder: (context, state) {
-          return  Container();
+          return  const SplashView();
         },
       ),
       // GoRoute(
