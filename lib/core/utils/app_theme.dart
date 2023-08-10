@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 
-ThemeData getApplicationTheme() => ThemeData(
+import 'app_colors.dart';
+import 'app_styles.dart';
+
+ThemeData getCustomApplicationTheme() => ThemeData(
     //Main Colors
 
     // primaryColor: AppColors.kPrimary,
@@ -71,4 +76,45 @@ ThemeData getApplicationTheme() => ThemeData(
     //     borderRadius: BorderRadius.circular(AppSize.s12),
     //   ),
     // ),
+    );
+
+ThemeData getApplicationDarkTheme() => ThemeData.dark(
+
+            //TextButton theme
+
+            // textButtonTheme: TextButtonThemeData(
+            //   style: TextButton.styleFrom(
+            //     textStyle: AppStyles.getRegularStyle(
+            //       color: AppColors.kPrimary,
+            //       fontSize: AppFontSize.s12,
+            //     ),
+            //   ),
+            // ),
+
+            //Text theme
+
+            // textTheme: TextTheme(
+            //   titleLarge: AppStyles.getRegularStyle(
+            //       color: AppColors.kPrimary, fontSize: AppFontSize.s12),
+            //   headlineSmall: AppStyles.getRegularStyle(
+            //       color: AppColors.kGrey, fontSize: AppFontSize.s14),
+            //   headlineMedium: AppStyles.getRegularStyle(
+            //       color: AppColors.kWhite, fontSize: AppFontSize.s16),
+            //   headlineLarge: AppStyles.getSemiBoldStyle(
+            //       color: AppColors.kPrimary, fontSize: AppFontSize.s18),
+            // ),
+
+            )
+        .copyWith(
+      scaffoldBackgroundColor: AppColors.kBackgroundColor,
+      textTheme: GoogleFonts.openSansTextTheme().copyWith(
+        titleLarge: AppStyles.getMediumStyle(
+          color: Colors.white,
+          fontSize: 22.sp,
+        ),
+        bodyMedium: AppStyles.getMediumStyle(
+          color: Colors.white,
+          fontSize: 14.sp,
+        ),
+      ),
     );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:zoomy_clone/core/utils/app_theme.dart';
 
 import 'core/helpers/custom_status_bar.dart';
 import 'core/utils/app_router.dart';
@@ -21,9 +21,7 @@ Future<void> main() async {
           onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
           child: MaterialApp.router(
             debugShowCheckedModeBanner: false,
-            theme: ThemeData.light().copyWith(
-              textTheme: GoogleFonts.dmSansTextTheme(),
-            ),
+            theme: getApplicationDarkTheme(),
             routerConfig: AppRouter.router,
           ),
         );
