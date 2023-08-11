@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629488447603",
+    "project_id": "zoomy-clone",
+    "storage_bucket": "zoomy-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629488447603:android:abaa1d74579b385e133a06",
+        "android_client_info": {
+          "package_name": "Maheresio.zoomy_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629488447603-420d2et284mufo7s7ek77a82899m8n61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApnal4tratNDKR0hAnfNHf9doRjrPha64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629488447603-420d2et284mufo7s7ek77a82899m8n61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

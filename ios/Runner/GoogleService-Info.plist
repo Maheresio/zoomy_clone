@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>629488447603-1e26ill2a3k8ev4lt8v9s8kd6bu83dql.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.629488447603-1e26ill2a3k8ev4lt8v9s8kd6bu83dql</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCp_DLjTNC8Cv-avugR_t1nd-7_8aNuBM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>629488447603</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Maheresio.zoomyClone</string>
+	<key>PROJECT_ID</key>
+	<string>zoomy-clone</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zoomy-clone.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:629488447603:ios:5c35466d9f8303d7133a06</string>
+</dict>
+</plist>
